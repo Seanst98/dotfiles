@@ -1,0 +1,2568 @@
+ls
+ls -la
+ls
+ls | where size > 10mb
+ls | where size < 10mb
+ls | where size < 4Kb
+ls | where size < 4Kb && type == file
+ls | where size < 4Kb and type == file
+ls
+eza
+ls
+eza
+ls
+config nu
+$env.EDITOR=vscode
+$env.EDITOR=code
+code
+$env.EDITOR=code
+set $env.config.shell_integration.osc133 = false
+set $env.EDITOR=code
+set $env.EDITOR = code
+$env.config.buffer_editor = code
+$env.config.buffer_editor = "code"
+config nu
+exit
+scoop install less
+exit
+config nu
+exit
+ls
+eza
+yy
+yazi
+ls
+eza
+yy
+eza
+eza --level=3
+eza --levels=3
+eza --icons
+eza --icons --levels=4
+eza --icons --level=4
+eza -lT --icons --level=4
+ls
+eza 
+eza | where type==file
+ls | where type==file
+ls | where type == file
+eza | where type == file
+ls3
+ls -la
+ls -la | where type == file
+lu
+du
+cd ..
+cd Users\sstirlin\qualcomm_sycl\
+cd intel-llvm\
+git status
+cd build
+ninja
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/Basic/*
+ls
+exit
+scoop update wezterm
+scoop update *
+scoop update all
+scoop help
+scoop update list
+scoop status
+scoop update
+cd qualcomm_sycl\
+echo $PATH
+echo $env:path
+echo path
+echo $PATH
+echo $env.Path
+set $env.path+=C:\repos\adreno-core\out\latest
+$env.path=$env.path;C:\repos\adreno-core\out\latest
+echo $env.PATH
+$env.path = ($env.path | append C:\repos\adreno-core\out\latest)
+echo $env.PATH
+cd ..
+fzf
+cd Users\sstirlin\qualcomm_sycl\
+cd intel-llvm\
+cd build\
+ls
+eza
+exit
+dir
+eza
+cd intel-llvm\
+eza
+eza --icons
+cd build\
+ninja
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsarm64.bat"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsarm64.bat
+'C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsarm64.bat'
+`C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsarm64.bat`
+$env.OCL_ICD_ENABLE_TRACE=1
+set OCL_ICD_ENABLE_TRACE=1
+OCL_ICD_ENABLE_TRACE=1
+$env.OCL_ICD_ENABLE_TRACE=1
+$env.OCL_ICD_ENABLE_TRACE="1"
+$env.OCL_ICD_ENABLE_TRACE = 1
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/Basic/*
+echo $env.PATH
+exit
+ls
+cd qua
+cd qualcomm_sycl\
+$env.OCL_ICD_ENABLE_TRACE = 1
+$env.path = ($env.path | append C:\repos\adreno-core\out\latest)
+cd intel-llvm\
+cd build
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a
+`C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsarm64.bat`
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu --param spirv-backend../sycl/test-e2e/test.cpp -v -a
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu --param spirv-backend=1../sycl/test-e2e/test.cpp -v -a
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu --param spirv-backend=1 ../sycl/test-e2e/test.cpp -v -a
+./bin/sycl-ls
+./bin/sycl-ls --verbose
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu --param spirv-backend=1 ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+ninja sycl-toolchain
+./bin/clang++.exe -fsycl ../sycl/test-e2e/test.cpp
+./a.exe
+hello = 1 ./a.exe
+hello = 1 | ./a.exe
+$env.OCL_ICD_ENABLE_TRACE = 1
+$env.hello = 1 ./a.exe
+mv a.exe bin\
+cd bin\
+a.exe
+./a.exe
+cd ..
+python ../buildbot/check.py
+cd ..
+rm -rf build
+sudo rm -rf build
+rm build
+exit
+exit
+cd qualcomm_sycl\intel-llvm
+ls
+rm -rf build
+sudo rm -rf build
+rm -rf build
+ls
+rm -rf build
+cd qualcomm_sycl\intel-llvm
+rm -rf build
+mkdir build
+cd build
+`C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsarm64.bat`
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO"
+cd ..
+rm -rf build
+ls
+mkdir build
+ls
+cd build\
+ls
+cd ..
+cd build\
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO"
+`C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsarm64.bat`
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO"
+ls
+rm -rf * build
+ls
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO"
+$env.path = ($env.path | append C:\repos\adreno-core\out\latest)
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO"
+`C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsarm64.bat`
+source `C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsarm64.bat`
+.\`C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsarm64.bat`
+.\C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsarm64.bat
+`C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsarm64.bat` | nu
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO"
+python ../buildbot/compile.py -j 8
+ninja
+./bin/clang++.exe -fsycl ../sycl/test-e2e/test.cpp
+./a.exe
+mv a.exe bin\
+ls
+cd bin\
+ls
+./a.exe
+cd ..
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu --param spirv-backend=1 ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+ext
+exit
+cmd
+exit
+l
+ls
+$env.OCL_ICD_ENABLE_TRACE = 1
+./a.exe
+cd bin\
+./a.exe
+$env.path = ($env.path | append C:\repos\adreno-core\out\latest)
+./a.exe
+./bin/clang++.exe -fsycl ../../sycl/test-e2e/test.cpp
+./clang++.exe -fsycl ../../sycl/test-e2e/test.cpp
+./a.exe
+SYCL_UR_TRACE=1 ./a.exe
+SYCL_UR_TRACE=2 ./a.exe
+./a.exe
+SYCL_UR_TRACE=2 ./a.exe
+./sycl-ls
+sycl-ls --verbose
+./clang++.exe -fsycl ../../sycl/test-e2e/test.cpp
+./a.exe
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+cd ..
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+ls
+cd C:/
+ls
+cd repos\
+ls
+./adreno-core/adrenoenv.cmd
+cd adreno-core\
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/* -v -a -s --time-tests
+cd repos
+cd C:/
+cd repos\
+cd adreno-core\
+cmd
+C:/repos/adreno-core/adrenoenv.cmd
+cd ..
+cd Users\sstirlin\qualcomm_sycl\
+cd intel-llvm\
+ls
+cd build\
+python ../buildbot/compile.py -j 8
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+cd ..
+git clone https://projects.blender.org/blender/blender.git
+cd blender\
+ls
+ls
+./bin/sycl-ls --verbose
+python ./build_files/utils/make_update.py
+git status
+mkdir build
+cd build\
+ninja install
+scoop update ccache
+ccache
+ccache -s
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_CCACHE=ccache
+ninja && ninja install
+ninja and ninja install
+ninja all
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+ninja install
+make developer ninja ccache
+scoop install make
+make developer ninja ccache
+cd ..
+make developer ninja ccache
+make developer ninja sccache
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_CCACHE=ccache.exe
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_CCACHE=ccache
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=ccache
+ninja 
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_CCACHE=ccache
+ninja 
+ninja install
+cd ..
+rm -rf build
+mkdir build
+make developer ninja sccache
+make developer ninja
+ls
+cd build\
+ls
+cd ..
+rm -rf build
+ls
+make developer ninja
+ls
+cd release\
+ls
+cd ..
+ls
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_CCACHE=ccache
+ninja then ninja install
+ninja | ninja install
+sudo ninja
+cd ..
+rm -rf build
+ls
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_CCACHE=ccache
+ninja
+ninja | ninja install
+ninja
+cd ..
+rm -rf build
+mkdir build
+cd build\
+ls
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_CCACHE=ccache
+ccache -s
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+ninja; ninja install
+ctest -N
+ctest -C Release -R alembic
+ctest -C Release
+ctest -C Release -VV
+BLENDER_VERBOSE = 1 ctest -C Release -VV
+BLENDER_VERBOSE=11 ctest -C Release -VV
+BLENDER_VERBOSE=1 ctest -C Release -VV
+BLENDER_VERBOSE=1 ctest -C Release -R cycles
+CYCLES_TEST_DEVICES=ONEAPI ctest -C Release -R cycles
+CYCLES_TEST_DEVICES=ONEAPI ctest -C Release -R cycles_bake_oneapi -VV
+ctest -N
+CYCLES_TEST_DEVICES=ONEAPI ctest -C Release -R cycles_bake_oneapi -VV
+CYCLES_TEST_DEVICES=CPU ctest -C Release -R cycles_bake_oneapi -VV
+CYCLES_TEST_DEVICES=GPU ctest -C Release -R cycles_bake_oneapi -VV
+CYCLES_TEST_DEVICES=ONEAPI ctest -C Release -R cycles_bake_oneapi -VV
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_CCACHE=ccache -DCYCLES_TEST_DEVICES=ONEAPI
+ninja; ninja install
+CYCLES_TEST_DEVICES=ONEAPI ctest -C Release -R cycles_bake_oneapi -VV
+CYCLES_TEST_DEVICES=ONEAPI | ctest -C Release -R cycles_bake_oneapi -VV
+$env.CYCLES_TEST_DEVICES=ONEAPI | ctest -C Release -R cycles_bake_oneapi -VV
+$env.CYCLES_TEST_DEVICES = ONEAPI | ctest -C Release -R cycles_bake_oneapi -VV
+$env.CYCLES_TEST_DEVICES = ONEAPI ^ ctest -C Release -R cycles_bake_oneapi -VV
+$env.CYCLES_TEST_DEVICES=ONEAPI ^ ctest -C Release -R cycles_bake_oneapi -VV
+$env.CYCLES_TEST_DEVICES=ONEAPI | ctest -C Release -R cycles_bake_oneapi -VV
+$env.CYCLES_TEST_DEVICES = ONEAPI; ctest -C Release -R cycles_bake_oneapi -VV
+$env.CYCLES_TEST_DEVICES = ONEAPI
+$env.CYCLES_TEST_DEVICES = 1
+$env.CYCLES_TEST_DEVICES = "ONEAPI"
+$env.CYCLES_TEST_DEVICES = "ONEAPI"; ctest -C Release -R cycles_bake_oneapi -VV
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_CCACHE=ccache -DCYCLES_TEST_DEVICES=ONEAPI
+cd qualcomm_sycl\intel-llvm
+fzf
+cd ..
+cd .
+cd ..
+fzf
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_CCACHE=ccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd qualcomm_sycl\intel-llvm
+cd build\
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO"
+cd qualcomm_sycl\intel-llvm\build\
+ninja; ninja install
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+exit
+ls
+ctest
+ctest -C Release
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_COMPILER_CACHE=ccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_COMPILER_CCACHE=ccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ccache -s
+scoop uninstall ccache
+scoop install sccache
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+sccache -s
+ls
+eza
+eza --icon
+eza --icons
+fzf
+zi
+zoxide
+z
+zi
+cds
+zoxide
+scoop update 
+zi
+z
+z repos
+zoxide z
+zoxide 
+zoxide -h\
+zoxide -h
+zoxide query
+exit
+sccache -s -v
+sccache -h
+sccache -s
+ninja; ninja install
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER=sccache" --cmake-opt="-DCMAKE_C_COMPILER=sccache"
+sccache -s
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache"
+sccache
+sccache --package-toolchain
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache"
+scoop install ccache
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=ccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=ccache"
+cd ..
+rm -rf build
+ls
+rm build
+rm -r build
+rm -rf build
+cd qualcomm_sycl\intel-llvm\build\
+cd ..
+rm -rf build
+sudo rm -rf build
+ls
+sudo rm -rf build
+cd qualcomm_sycl\intel-llvm\build\
+cd ..
+rm -rf build
+sudo rm -rf build
+sudo config --enable normal
+ls
+cd qualcomm_sycl\intel-llvm\build\
+cd ..
+rm -rf build
+sudo rm -rf build
+whoami
+rm -rf build
+cmd
+cd qualcomm_sycl\intel-llvm\build\
+cd qualcomm_sycl\intel-llvm
+mkdir build
+cd build
+sccache -s
+sccache -h
+sccache --show-adv-stats
+sccache -s
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache"
+sccache -s
+ninja; ninja install
+sccache -s
+ninja; ninja install
+cd ..
+cd ..
+rm -rf build
+cd build\
+ls
+cd ..
+cd build\
+ls
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache"
+sccache -s
+dir
+ls
+eza --levels=3 --icons
+eza -levels=3 --icons
+eza --levels=3 --icons
+eza -lTa --levels=3 --icons
+eza -lTa --icons
+ninja; ninja install
+ls
+cd qualcomm_sycl/intel-llvm/build/
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache"
+ninja; ninja install
+ninja check-sycl
+ninja check-sycl-e2e
+ls
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+ninja
+cd qualcomm_sycl/intel-llvm/build/
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+cd ..
+ls
+fzf
+ls\
+ls
+cd ..
+fzf
+exit
+cd qualcomm_sycl/blender/
+ls
+cd build\
+ninja
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+rm -rf build
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+rm -rf build
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSATALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DWITH_WINDOWS_SCCACHE=sccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+rm -rf build
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DWITH_WINDOWS_SCCACHE=sccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+sccache -s
+exit
+ninja; ninja install
+cd ..
+rm -rf build\
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+rm -rf build\
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+git branch -a
+git checkout remotes/origin/blender-v3.3-release
+git status 
+git checkout -b "sean/init-blender"
+git add .\
+git status
+git commit -m "Init Blender"
+git checkout remotes/origin/blender-v3.3-release
+rm -rf build
+mkdir build
+git cherry-pick 8e0ed9e435a
+git status
+git add .
+git cherry-pick --continue
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+make update
+python
+make update
+cd qualcomm_sycl\blender\
+python ./build_files/utils/make_update.py
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+rm -rf build
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+make update
+cd ..
+make update
+python ./build_files/utils/make_update.py
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DCYCLES_TEST_DEVICES=ONEAPI -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+ls
+cd qualcomm_sycl\blender\
+make update
+cd ..
+mkdir blend_test
+cd blend_test\
+git clone https://projects.blender.org/blender/blender.git
+cd ..
+cd blender
+git status
+CD ..
+cd ..
+cd blend_test\
+ls
+cd blender\
+\ls
+ls
+make update
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+python ./build_files/utils/make_update.py
+cd build
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd qualcomm_sycl\intel-llvm\
+ls
+git fetch
+git pull
+cd build
+ninja; ninja install
+cd qualcomm_sycl\blend_test\
+cd blender\
+cd build\
+ninja; ninja install
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+fzf
+cd ..
+rm -rf blend_test\
+cd blender\
+cd build\
+ninja; ninja install
+ls
+cd ..
+ls
+rm -rf build
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+python ./build_files/utils/make_update.py
+git branch -a
+git checkout sean/init-blender
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+rm -rf build
+python ./build_files/utils/make_update.py
+mkdir build
+cd build\\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+git checkout sean/init-blender
+git locale\
+git log
+cd build\
+ninja; ninja install
+ls
+ls -la
+cd qualcomm_sycl\
+ls
+scoop update
+scoop cleanup
+scoop help
+cd intel-llvm\
+git status
+fzf
+eza
+ls
+eza
+l
+ls
+ls -la
+l
+l -la
+ls
+eza
+ls
+exit
+cd qualcomm_sycl\intel-llvm\
+ls
+open README.md
+cat README.md
+scoop install bat
+bat README.md
+config nu
+nu config
+$env.EDITOR=code
+nu config
+code
+set $env.EDITOR=code
+$env.EDITOR = code
+$env.EDITOR=code
+$env.EDITOR=nvim
+config flatten
+config env
+$env.config.buffer_editor = "code"
+config env
+config nu
+echo $XDG_CONFIG_HOME
+echo $env.XDG_CONFIG_HOME
+exit
+ls
+exit
+ls
+bat README.md
+cd qualcomm_sycl\intel-llvm\
+bat README.md
+reset
+reset 0
+RESET
+restart
+reload
+nu config reload
+ls
+cd qualcomm_sycl\intel-llvm\
+ls
+cd qualcomm_sycl\intel-llvm\
+ls
+s
+ls
+fzf
+code $(fzf)
+fzf | code
+zff | code
+ls
+scoop install carapace
+scoop install carapace-bin
+ls
+cd qualcomm_sycl\intel-llvm\
+git status 
+exit
+ls
+cd qualcomm_sycl\intel-llvm\
+cd build\
+ninja; ninja install
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+fzf | code
+yazi
+cd ..
+git status 
+git fetch --prune
+git checkout verena/enable_all_extensions
+git log 
+cd build\
+cd ..
+cd blender\
+ls
+git status 
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=OFF -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+fzf
+ninja; ninja install
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache"
+ninja; ninja install
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=OFF -DWITH_CYCLES_ONEAPI_BINARIES=ON -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd qualcomm_sycl/intel-llvm/build/
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/AtomicRef/add_generic_local.cpp -v -a -s --time-tests
+ctest -C Release
+ctest -j 4 --output-on-failure
+cd ..
+git status 
+git log 
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd qualcomm_sycl/intel-llvm/build/
+cd qualcomm_sycl/blender/
+git fetch --prune
+ninja; ninja install
+ls
+yazi
+python build_files/utils/make_update.py 
+git status 
+git checkout main
+git fetch --prune
+git pull
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/AtomicRef/add_generic_local.cpp -v -a -s --time-tests
+python build_files/utils/make_update.py 
+~\qualcomm_sycl\blender> python build_files/utils/make_update.py
+git lfs install --skip-repo
+Git LFS initialized.
+Updating Blender Git Repository
+===============================
+git pull --rebase
+cd build
+cd ..
+git diff
+git checkout sean/init-blender
+git rebase -i main
+python build_files/utils/make_update.py 
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+git checkout qualcomm-sycl 
+git fetch --prune
+git pull
+cd build
+ninja; ninja install
+scoop install zstd
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/AtomicRef/add_generic_local.cpp -v -a -s --time-tests
+ninja; ninja install
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+git status
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+git status 
+git apply diff.patch 
+git checkout main 
+git apply diff.patch 
+cd build\
+cd ..
+rm -rf build
+mkdir build
+git checkout main
+git fetch --prune
+git pull
+python ./build_files/utils/make_update.py
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+ninja; ninja install
+cd ..
+git status 
+git checkout -- .
+git status
+git fetch --prune
+git pull
+git checkout sean/init-blender 
+git reset --hard main
+git apply diff.patch 
+git status 
+git diff main
+git add .
+git log 
+git commit -m "Init Blender"
+python ./build_files/utils/make_update.py
+git rebase -i main
+python ./build_files/utils/make_update.py
+rm -rf build
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+git fetch --prune
+git pull
+cd build
+ninja; ninja install
+cd ..
+git status 
+ninja; ninja install
+git diff main
+exit
+ninja; ninja install
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=OFF -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+rm -rf build
+mkdir build
+cd build
+cd ..
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=OFF -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+git log
+ninja; ninja install
+cd ..
+git checkout main
+git fetch --prune
+git pull
+python ./build_files/utils/make_update.py
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=OFF -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+rm -rf build
+ls
+cd build\
+ls
+cmake --build . --target INSTALL --config Release
+cmake .. --build . --target INSTALL --config Release
+cmake .. --build . --target INSTALL --config release
+cmake .. --build . --target INSTAL
+cmake .. --build . --target INSTALL
+cmake --build . --target INSTALL --config Release
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_WINDOWS_SCCACHE=sccache
+cd ..
+git status 
+git diff 
+git checkout -- .
+ninja; ninja install
+ctest -j 4 --output-on-failure
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DWITH_WINDOWS_SCCACHE=sccache
+ninja; ninja install
+exit
+cd ..
+git status 
+git fetch --prune
+git pull
+python ./build_files/utils/make_update.py
+git checkout sean/init-blender 
+git diff main
+git rebase -i main
+git diff main
+rm -rf build
+cd build
+ls
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DWITH_WINDOWS_SCCACHE=sccache
+cd ..
+rm -rf build
+cd build\
+ls
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=OFF -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+rm -rf build
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES=ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+ctest -j 8 --output-on-failure
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_oneapi
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES=CPU;ONEAPI -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_oneapi
+clear
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_oneapi
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_oneapi
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES=CPU -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_oneapi
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+cd build
+./bin/sycl-ls --verbose
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/AtomicRef/add_generic_local.cpp -v -a -s --time-tests
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+clear
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+clear
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+$env.SYCL_UR_TRACE = 2
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+$env.SYCL_UR_TRACE = 1
+$env.SYCL_UR_TRACE = 2
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+$env.SYCL_UR_TRACE=2
+$env.SYCL_UR_TRACE = "2"
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+$env.SYCL_UR_TRACE = 2
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+SYCL_UR_TRACE=2 ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+cd ..
+git checkout qualcomm-sycl 
+git fetch --prune
+git pull
+cd build
+ninja; ninja install
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/AtomicRef/add_generic_local.cpp -v -a -s --time-tests
+ninja; ninja install
+cd ..
+rm -rf build
+cd build\
+ls
+cd ..
+rm -rf build
+rm -rf ./build
+cd build
+ls
+rm -rf *
+ls
+cd ..
+ls
+sudo rm -rf build
+cd build
+ls
+rm -rf *
+ls
+rm -rf bin\
+rm -rf bin
+cd ..
+rm -rf build
+cd build
+ls
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+git status 
+cd build
+eza
+eza --icons
+ls
+;s
+ls
+eza --icons
+ninja; ninja install
+cd ..
+git status 
+git add .
+git commit --amend 
+git checkout main 
+git fetch --prune
+git pull
+python ./build_files/utils/make_update.py
+git checkout sean/init-blender 
+git rebase -i main
+python ./build_files/utils/make_update.py
+cd build
+ninja; ninja install
+SYCL_UR_TRACE=2 ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+rm -rf build
+cd build
+ls
+cd ..
+rm -rf build
+cd build
+ls
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd qualcomm_sycl/intel-llvm/
+git fetch --prune
+git pull
+cd build
+cd qualcomm_sycl/blender
+scoop install zoxide
+zi
+zoxide
+z 
+z intel
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+rm -rf build
+mkdir build
+cd build
+ninja; ninja install
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+SYCL_UR_TRACE=2 ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+SYCL_UR_TRACE=2 ctest -j 8 --output-on-failure -C DEBUG -R cycles_bake_
+ninja; ninja install
+cmake -LAH
+cmake .. -LAH
+clear
+cmake .. -LAH
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll -DCMAKE_EXE_LINKER_FLAGS:STRING=/machine:ARM64 --copt /Z7 --linkopt /DEBUG:FASTLINK
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll -DCMAKE_EXE_LINKER_FLAGS:STRING=/machine:ARM64 --copt /Z7 /DEBUG:FASTLINK
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll -DCMAKE_EXE_LINKER_FLAGS:STRING=/machine:ARM64 /DEBUG:FASTLINK
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll -DCMAKE_EXE_LINKER_FLAGS:STRING="/machine:ARM64 /DEBUG:FASTLINK"
+ninja; ninja install
+cd ..
+cd ..
+cd build
+ninja; ninja install
+SYCL_UR_TRACE=2 ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll -DCMAKE_EXE_LINKER_FLAGS:STRING="/machine:ARM64 /DEBUG:FASTLINK /INCREMENTAL:YES" 
+ninja; ninja install
+SYCL_UR_TRACE=2 ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+cd ..
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+SYCL_UR_TRACE=2 ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+SYCL_UR_TRACE=2 ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+exit
+cd qualcomm_sycl/blender
+cd build\
+exit
+cd qualcomm_sycl/intel-llvm/build/
+cd qualcomm_sycl/blender
+cd build
+cd ..
+git status 
+git dif
+git diff
+cd build
+ninja; ninja install
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+eza -l
+eza -l --icons
+ls
+eza -l --icons
+ls
+eza -l --icons
+cd ..
+cat README.md
+open README.md
+bat README.md
+sccache -s
+cd qualcomm_sycl/blender
+cd ~
+cd blender
+z blender
+ls
+lt3
+lta3
+cd blendert
+cd blender
+cds
+ninja; ninja install
+cd intel-llvm\
+cd ..
+git status 
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+$env
+ls
+l
+ll
+l
+ll
+ls
+ll
+ls -la
+ll
+ls
+ll
+l
+exit
+ls
+lt3
+cds
+yazi
+git status 
+ls
+ls -la
+ls -l
+l
+ls
+bat CMakeLists.txt 
+ls
+cd build
+ninja; ninja install
+ls
+lt3
+lta3
+lt3
+lta4
+lt
+exit
+ps
+clear
+cd ..
+fzf
+exit
+fzf
+code $(fzf)
+fzf | code
+fzf
+exit
+fzf
+fzf
+ls
+ls
+fzf
+yy
+fzf
+env
+$env
+l
+ls
+lt3
+ls
+l
+bat CMakeLists.txt 
+ls
+cd qualcomm_sycl/blender
+ls
+bat README.md 
+cd blender
+cd repos
+cds
+cd ~
+cd qualcomm_sycl/blender 
+cd ~
+ls
+cd ..
+cd sstirlin\
+ls
+exit
+exit
+btop
+cd blender
+cd intel-llvm\
+cd ..
+cd intel-llvm\
+cd ..
+cd intel-llvm
+git fetch --prune
+git pull
+cd build
+git status 
+git diff
+cd build
+ninja; ninja install
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+cd ..
+ls
+git status 
+git add /
+git add .
+git commit --amend 
+git checkout main 
+git fetch --prune
+git pull
+python ./build_files/utils/make_update.py
+git checkout sean/init-blender 
+git rebase -i main
+ninja; ninja install
+cd build
+ls
+lt3
+lt
+ls
+ls -la
+fzf
+yy
+exit
+ninja; ninja install
+ls
+ninja; ninja install
+cd ..
+rm -rf build
+cd build
+ls
+l
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd blender
+cd build
+ninja; ninja install
+cd ..
+cd ..
+cd blender
+cd build
+cds
+zi
+scoop update
+zoxide
+scoop update zoxide
+scoop update *
+scoop status
+scoop update neovim
+scoop update *
+scoop update -a
+zi
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+exit
+exit
+cd blender
+cd llvm
+config nu
+$env.config.buffer_editor = "code"
+config nu
+cds
+zi
+scoop install head
+zi
+cds
+cd ..
+ls
+ls -l
+ls -la
+cd .config\
+cd .zoxide.nu
+cd ~
+cds
+cd ~
+cds
+zi
+cds
+cdsa
+cds
+cd ..
+zi
+cd ..
+git status 
+cd blender
+git status
+git checkout origin/blender-v4.3-release 
+git status
+git checkout main 
+git checkout -b origin/blender-v4.3-release 
+git log 
+git status
+git log
+git reset --hard origin/blender-v4.4-release 
+git fetch --prune
+git branch -a
+git branch -D origin/blender-v4.3-release
+git checkout main
+git pull
+git branch -D origin/blender-v4.3-release
+git fetch --prune
+git branch -a
+git checkout blender-v4.3-release 
+git log
+python ./build_files/utils/make_update.py
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+python ./build_files/utils/make_update.py
+git status 
+git log 
+cd build
+git fetch --prune
+ninja; ninja install
+cd ..
+python ./build_files/utils/make_update.py
+cd build
+ninja; ninja install
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+rm -rf build
+mkdir build
+cd build
+cmake --build . --target INSTALL --config Release
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_WINDOWS_SCCACHE=sccache 
+ninja; ninja install
+# CTRL+R - FZF
+cd intel
+cd blender
+cd build
+ninja; ninja install
+cd ..
+git status
+git checkout main
+git checkout blender-v4.2-release
+python ./build_files/utils/make_update.py
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_WINDOWS_SCCACHE=sccache
+git fetch --prune
+git pull
+cd build
+ninja; ninja install
+cd ..
+ninja; ninja install
+git checkout main 
+python ./build_files/utils/make_update.py
+git fetch --prune
+git pull
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_WINDOWS_SCCACHE=sccache
+zi
+cds
+zi
+cds
+exit
+ninja; ninja install
+cd ..
+git checkout blender-v4.1-release
+make update
+cds
+python ./build_files/utils/make_update.py
+rm -rf build
+ls
+mkdir builds
+rm -rf builds
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_WINDOWS_SCCACHE=sccache
+cd ..
+python ./build_files/utils/make_update.py
+cds
+exit
+cds
+exit
+git checkout blender-v4.2-release
+cds
+python ./build_files/utils/make_update.py
+exit
+cds
+ls
+rm -rf build
+mkdir builds
+rm -rf builds
+mkdir build
+cd bu
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_WINDOWS_SCCACHE=sccache
+cds
+exit
+ninja; ninja install
+cds
+clear
+cd ..
+rm -rf build
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_WINDOWS_SCCACHE=sccache
+cd ..
+rm -rf build
+cds
+fzf --scheme=path --read0 --height=40% --reverse --walker=dir,follow,hidden --preview \'eza --tree --color=always --level=2 {}\' --preview-window \'wrap,up,7\' +m
+fzf --scheme=path --read0 --height=40% --reverse --walker=dir,follow,hidden --preview 'eza --tree --color=always --level=2 {}' --preview-window 'wrap,up,7' +m
+cds
+fzf -h
+cds
+ls
+cds
+cd ~
+cds
+zi
+cds
+zoxide
+fzf -h
+fzf --history=zoxide
+fzf --history=zi
+fzf --history="zoxide --query"
+zoxide --query
+zoxide -query
+zoxide -h
+zoxide query
+fzf --history="zoxide query"
+zi
+cds
+exit
+cds
+fzf -h
+cds
+exit
+cds
+exit
+cds
+exit
+eza -h
+eza --help
+eza {}
+cds
+exit
+fzf eza {}
+fzf --preview 'eza {}'
+fzf --preview 'eza --level=2 {}'
+fzf --preview eza --level=2 {}
+fzf --preview 'eza --level=2 {}'
+cds
+exit
+cds
+exit
+cds
+zi
+cds
+exit
+$env
+$env.keybindings
+$env
+$env.config
+cds
+exit
+cds
+exit
+cds
+ls
+git status 
+rm -rf build
+mkdir build
+python ./build_files/utils/make_update.py
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_WINDOWS_SCCACHE=sccache
+cd ..
+rm -rf build
+mkdir build
+cd blender
+cd build
+ls
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_WINDOWS_SCCACHE=sccache
+cds
+{}
+fzf {}
+fzf --preview "bat {}"
+fzf --preview "eza {}"
+ninja; ninja install
+echo $
+cds
+seans-eza 
+cds
+exit
+cds
+ls
+cds
+exit
+cds
+exit
+cds
+exit
+cds
+exit
+cds
+eza {}
+fzf --preview 'eza {}'
+fzf --preview 'eza --tree {}'
+fzf --preview \'eza --tree {}\'
+fzf --preview 'eza --tree {}'
+exit
+cds
+exit
+cds
+exit
+cds
+exit
+cds
+exit
+cds
+exit
+cds
+exit
+cds
+exit
+cds
+exit
+cds
+exit
+cds
+exit
+cds
+exit
+cds
+cd ..
+cd ~
+cd blender
+cd build
+ninja; ninja install
+cds
+fzf
+ls
+lt3
+cds
+fzf
+cds\
+cds
+git status 
+python ./build_files/utils/make_update.py
+git checkout blender-v4.3-release
+python ./build_files/utils/make_update.py
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_WINDOWS_SCCACHE=sccache
+cmake -v
+cmake --version
+cds
+ls
+lt3
+exit
+cd blender
+rm -rf build
+cd build
+ls
+l
+ls
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_WINDOWS_SCCACHE=sccache
+ninja; ninja install
+exit
+clang -v
+scoop update -a
+cd blender
+rm -rf buildf
+rm -rf build
+cd build
+ls
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_WINDOWS_SCCACHE=sccache -DCMAKE_C_COMPILER_LAUNCHER=clang -DCMAKE_CXX_COMPILER_LAUNCHER=clang
+cd ..
+rm -rf build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DCMAKE_C_COMPILER_LAUNCHER=clang -DCMAKE_CXX_COMPILER_LAUNCHER=clang
+cd blender
+cd build
+ls
+cd ..
+rm -rf build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DCMAKE_C_COMPILER_LAUNCHER=clang -DCMAKE_CXX_COMPILER_LAUNCHER=clang
+clang -v
+scoop install clang
+scoop search clang
+clang -v
+clang++ 
+cd blender
+rm -rf build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DCMAKE_C_COMPILER_LAUNCHER=clang.exe -DCMAKE_CXX_COMPILER_LAUNCHER=clang++.exe
+rm -rf *
+ls
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DCMAKE_C_COMPILER=clang.exe -DCMAKE_CXX_COMPILER=clang++.exe
+rm -rf *
+cd ..
+git status 
+git checkout main
+python ./build_files/utils/make_update.py
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DCMAKE_C_COMPILER=clang.exe -DCMAKE_CXX_COMPILER=clang++.exe
+cd ..
+rm -rf build
+ls
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DCMAKE_C_COMPILER_LAUNCHER=sccache
+ninja; ninja install
+cd ..
+rm -rf build
+cd build
+cd blender
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DCMAKE_C_COMPILER_LAUNCHER=sccache
+ninja; ninja install
+cd ..
+rm -rf build
+mkdir build
+python ./build_files/utils/make_update.py
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DCMAKE_C_COMPILER_LAUNCHER=sccache
+ninja; ninja install
+cd ..
+rm -rf build
+git fetch --prune
+python ./build_files/utils/make_update.py
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd blender
+cd build
+cd blender
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+git checkout sean/init-blender 
+git rebase -i main
+ls
+rm -rf *
+ls
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+rm -rf build
+mkdir build
+cd build
+exit
+cd blender
+ls
+cd build
+ls
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+scoop update wezterm
+scoop status
+cd intel
+git fetch --prune
+git status
+cd build
+ninja; ninja install
+sccache -s
+exit
+ninja; ninja install
+cd ..
+make update
+cd blender
+ls
+cd build
+ls
+exit
+make
+git status 
+git checkout blender-v4.3-release
+make update
+git status 
+make
+cd intel
+git fetch --prune
+git pull
+cd builde
+cd build\
+ninja; ninja install
+cd blender
+make update
+scoop install hyperfine
+hyperfine --warmup 10 'sleep 10'
+sleep 1
+hyperfine --warmup 10 'sleep 10s'
+sleep 10s
+sleep 1000
+sleep 10seconds
+sleep 10 seconds
+sleep 10s
+sleep 
+sleep --help
+sleep 10 seconds
+hyperfine --warmup 10 'sleep 10sec'
+sleep 10 sec
+sleep 10sec
+hyperfine sleep 10sec
+hyperfine --show-output sleep 10sec
+hyperfine --show-output sleep 10
+scoop install delta
+scoop update -a
+scoop cleanup -a
+make
+rm -rf build
+cd ..
+ls
+rm build_windows_arm64_vc17_Release\
+rm -rf build_windows_arm64_vc17_Release\
+ls
+cd blender\
+make update
+git status 
+git checkout -- .
+git status 
+rm tests\files
+rm -rf tests\files
+git status 
+git fetch --prune
+make update
+make
+cd ..
+ls
+rm -rf build_windows_arm64_vc17_Release\
+cd blender\
+exit
+cds
+exit
+nu
+exit
+nu
+exit
+cd blender
+cd ..
+ls
+rm -rf build_windows_arm64_vc17_Release\
+cd blender
+cd build
+ls
+cd ..
+rm -rf build
+mkdir build
+cd build
+exit
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache"
+cd ..
+cd build
+sccache -s
+cd blender
+cd ..
+ls
+cd blender
+ls
+ls build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+ninja; ninja install
+cds
+ninja; ninja install
+ninja; ninja install
+e
+cd ..
+git status
+git checkout -- .
+git status
+git checkout -b "sean/4.3-demo"
+git apply ~"/Downloads/diff 2.patch" 
+git status
+git diff
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/AtomicRef/add_generic_local.cpp -v -a -s --time-tests
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ctest -N
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+ctest -N
+ctest -j 8 --output-on-failure -C Release 
+cd ..
+python ./build_files/utils/make_update.py
+git status
+git add .
+git commit -m "Init Blender 4.3"
+python ./build_files/utils/make_update.py
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES=CPU -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES=CPU -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release
+ctest -N
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+ctest -N
+BLENDER_TEST_UPDATE=1 ctest -R cycles
+cd ..
+git checkout main
+python ./build_files/utils/make_update.py
+cd ..
+cd blender
+git checkout sean/4.3-demo 
+python ./build_files/utils/make_update.py
+git checkout main
+python ./build_files/utils/make_update.py
+git checkout sean/4.3-demo 
+python ./build_files/utils/make_update.py
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+cd ..
+python ./build_files/utils/make_update.py --use-tests
+cd build
+cd ..
+rm -rf build
+mkdir build
+cd build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+BLENDER_TEST_UPDATE=1 ctest -R cycles
+BLENDER_TEST_UPDATE=1 ctest -R cycles -j 16
+ctest -N
+BLENDER_TEST_UPDATE=1 ctest -R cycles -j 16
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+sccache -s
+scoop update -a
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+cd ..
+git checkout sean/init-blender 
+git checkout -- .
+git checkout sean/init-blender 
+git diff main
+git checkout sean/4.3-demo 
+cd build
+ninja; ninja install
+cd ..
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+cd ..
+git status 
+cd build
+hyperfine 'python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests'
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Release -R cycles_bake_
+ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+PRINT_QC_COMPILER_DLL_PATH=1 ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+cd ...
+cd intel-llvm\
+mkdir debug_build
+cd debug_build\
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache"
+ninja; ninja install
+ls
+cd ..
+ls
+cd build
+ls
+ninja; ninja install
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache"
+ninja; ninja install
+OCL_ICD_ENABLE_TRACE=1 PRINT_QC_COMPILER_DLL_PATH=1 ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+SYCL_UR_TRACE=2 OCL_ICD_ENABLE_TRACE=1 PRINT_QC_COMPILER_DLL_PATH=1 ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+clear
+SYCL_UR_TRACE=2 OCL_ICD_ENABLE_TRACE=1 PRINT_QC_COMPILER_DLL_PATH=1 ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 PRINT_QC_COMPILER_DLL_PATH=1 ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+SYCL_UR_TRACE=-1 OCL_ICD_ENABLE_TRACE=1 PRINT_QC_COMPILER_DLL_PATH=1 ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+ninja all
+ninja sycl-toolchain
+ninja; ninja install
+cd ..
+git fetch --prune
+git pull
+cd build\
+ninja; ninja install
+cd ..
+git status 
+git log 
+git diff 
+git diff
+git status
+git add intern/*
+git status 
+git commit -m "Enable OpenCL devices on Blender Cycles"
+cd blender
+git remote add internal git@github.qualcomm.com:sycl-gpu/blender-mirror.git
+git status
+git log --oneline
+git checkout blender-v4.3-release
+git checkout -b "sean/4.3-enable-opencl"
+git cherry-pick c2fac7a792d
+git status
+git log --oneline
+git diff blender-v4.3-release
+git push internal
+git fetch internal 
+git push internal
+ssh-add -l -E md5
+ssh -vT git@github.qualcomm.com
+git push internal
+git status
+git remote -v
+ssh -vT git@github.qualcomm.com
+git diff
+git diff blender-v4.3-release
+git checkout qualcomm-sycl-v4.3 
+git cherry-pick c2fac7a792d
+git status 
+git log 
+git reflog
+git reset --hard HEAD@{1}
+git log 
+git checkout "sean/enable-opencl-blender-cycles"
+git checkout -b "sean/enable-opencl-blender-cycles"
+git log 
+git cherry-pick c2fac7a792d
+git log 
+git push internal
+git diff
+git log --oneline
+git push internal
+git status
+git branch -a
+git branch
+git branch -D sean/4.3-enable-opencl 
+git branch -D blender-v4.2-release 
+git branch -D blender-v4.1-release 
+git branch
+git checkout main
+git fetch --prune
+git checkout sean/enable-opencl-blender-cycles
+git log --oneline
+git push internal
+git checkout -b "sean/enable-opencl-blender-cycles-v2"
+git checkout blender-v4.3-release
+python ./build_files/utils/make_update.py --use-tests
+git branch
+git checkout qualcomm-sycl-v4.3 
+git fetch --prune
+git pull
+git log --oneline
+git checkout verena/first-fixes
+git cherry-pick 3891727c4d4
+git log --oneline
+cd build
+ninja; ninja install
+cd ..
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+SYCL_UR_TRACE=-1 OCL_ICD_ENABLE_TRACE=1 PRINT_QC_COMPILER_DLL_PATH=1 ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+cd ..
+git branch 
+git checkout qualcomm-sycl-v4.3 
+git fetch --prune
+git pull
+git log
+rm -rf build
+mkdir build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+cd debug_build\
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache"
+ninja; ninja install
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache"
+ls
+rm -rf build
+mkdir build
+mkdir debug_build
+cd build
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+cd debug_build\
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ~/qualcomm_sycl/intel-llvm/build/
+ls
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+python ../buildbot/configure.py -t Release --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o "~/qualcomm_sycl/intel-llvm/build/"
+exit
+cd ..
+cd debug_build\
+cd build
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ~/qualcomm_sycl/intel-llvm/debug_build/
+ninja; ninja install
+cd ..
+cd ..
+cd ..
+cd debug_build\
+ninja; ninja install
+cd ..
+cd build
+ls
+cd build
+cd debug_build\
+ninja; ninja install
+cd ..
+cd debug_build\
+ninja; ninja install
+cd ..
+rm -rf debug_build\
+mkdir debug_build
+cd debug_build\
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ~/qualcomm_sycl/intel-llvm/debug_build/
+ninja; ninja install
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO /FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ~/qualcomm_sycl/intel-llvm/debug_build/
+ninja; ninja install
+ninja; ninja install
+ninja; ninja install
+python ../buildbot/compile.py -j 8 -o ~/qualcomm_sycl/intel-llvm/debug_build/
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=OFF -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cd ..
+ninja; ninja install
+cd debug_build\
+SYCL_UR_TRACE=-1 OCL_ICD_ENABLE_TRACE=1 PRINT_QC_COMPILER_DLL_PATH=1 ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+ninja -j 1
+ninja; ninja install
+sscache -s
+sccache -s
+sccache -h
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_EXE_COMPILER_FLAGS_DEBUG:STRING=/FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ~/qualcomm_sycl/intel-llvm/debug_build/
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_EXE_COMPILER_FLAGS:STRING=/FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ~/qualcomm_sycl/intel-llvm/debug_build/
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_COMPILE_OPTIONS:STRING=/FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ~/qualcomm_sycl/intel-llvm/debug_build/
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCOMPILE_OPTIONS:STRING=/FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ~/qualcomm_sycl/intel-llvm/debug_build/
+ninja; ninja install
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_FLAGS:STRING=/FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ~/qualcomm_sycl/intel-llvm/debug_build/
+ninja; ninja install
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_C_FLAGS:STRING=/FS" --cmake-opt="-DCMAKE_CXX_FLAGS:STRING=/FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ~/qualcomm_sycl/intel-llvm/debug_build/
+ninja; ninja install
+cd ..
+rm -rf debug_build
+mkdir debug_build
+cd debug_build\
+exit
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_C_FLAGS:STRING=/FS" --cmake-opt="-DCMAKE_CXX_FLAGS:STRING=/FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ~/qualcomm_sycl/intel-llvm/debug_build/
+ninja; ninja install
+cd ..
+rm -rf debug_build
+mkdir debug_build
+cd debug_build\
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON"  --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ./
+cd ..
+rm -rf debug_build
+mkdir debug_build
+cd debug_build\
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON"  --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ./
+ninja; ninja install
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DLLVM_PARALLEL_LINK_JOBS=1" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ./
+ninja; ninja install
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DLLVM_PARALLEL_LINK_JOBS=1" --cmake-opt="-DLLVM_USE_SPLIT_DWARF=ON" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ./
+ninja; ninja install
+ninja -j 1
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_CXX_FLAGS=/FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ./
+ninja
+scoop update -a
+exit
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" -o ./
+ninja
+cd ..
+rm -rf debug_build
+mkdir debug_build
+cd debug_build\
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" -o ./
+ninja; ninja install
+scoop install ccache
+scoop update ccache
+cd ..
+rm -rf debug_build
+mkdir debug_build
+cd debug_build\
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=ccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=ccache" -o ./
+ccache -s
+ninja; ninja install
+cd ..
+ls
+rm -rf debug_build
+mkdir debug_build
+cd debug_build\
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=ccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=ccache" -o ./
+ccache -s
+ninja; ninja install
+cd ..
+rm -rf debug_build
+mkdir debug_build
+cd debug_build\
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_FLAGS:STRING=/Zi /FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ./
+cd ..
+rm -rf debug_build
+mkdir debug_build
+cd debug_build\
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_FLAGS:STRING=/Z7 /FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ./
+ninja; ninja install
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_FLAGS:STRING=/Z7 /FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ./
+ninja; ninja install
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_FLAGS:STRING=/Z7 /FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ./
+cd ..
+rm -rf debug_build
+mkdir debug_build
+cd debug_build\
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_FLAGS:STRING=/Z7 /FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ./
+ls
+ls
+rm -rf *
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/INCREMENTAL:NO" --cmake-opt="-DCMAKE_CXX_FLAGS:STRING=/Z7 /FS" --cmake-opt="-DCMAKE_CXX_COMPILER_LAUNCHER=sccache" --cmake-opt="-DCMAKE_C_COMPILER_LAUNCHER=sccache" -o ./
+python ../buildbot/compile.py -j 8 -o ./
+cd ..
+rm -rf debug_build
+mkdir debug_build
+cd debug_build\
+ls
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/INCREMENTAL:NO" -o ./
+cd ..
+rm -rf debug_build
+mkdir debug_build
+git status 
+git checkout -- sycl/*
+git status
+git fetch --prune
+git pull
+cd debug_build\
+ls
+python ../buildbot/configure.py -t Debug --disable-l0 --cmake-opt="-DUMF_DISABLE_HWLOC=ON" --cmake-opt="-DCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/INCREMENTAL:NO" -o ./
+ls
+cd ..
+rm -rf debug_build
+mkdir debug_build
+cd debug_build\
+cds
+exit
+ninja; ninja install
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+SYCL_UR_TRACE=-1 OCL_ICD_ENABLE_TRACE=1 PRINT_QC_COMPILER_DLL_PATH=1 ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+cd repos
+ls
+cd build
+cmake --build . --config Debug
+cd ..
+./adreno-core/adrenoenv.cmd
+cd adreno-core\
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+./adrenoenv.cmd
+cds
+cd debug_build\
+SYCL_UR_TRACE=-1 OCL_ICD_ENABLE_TRACE=1 PRINT_QC_COMPILER_DLL_PATH=1 ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+/DebugExe SYCL_UR_TRACE=-1 OCL_ICD_ENABLE_TRACE=1 PRINT_QC_COMPILER_DLL_PATH=1 ctest -j 8 --output-on-failure -C Debug -R cycles_bake_
+cds
+make help
+cds
+exit
+sccache -s
+cd blender
+ls
+make full nobuild
+mkdir lol
+cd lol
+make full nobuild
+make .. full nobuild
+make ../ full nobuild
+make -C .. full nobuild
+make full nobuild -C ..
+cd ..
+rm -rf lol
+make full nobuild 
+cd blender
+make full nobuild 
+ls
+cd ..
+ls
+cd blender
+make clean
+make full nobuild 
+cd blender
+make full nobuild 
+cd blender
+cd debug_build\
+ctest -j 8 -VV --output-on-failure -C Debug -R cycles_bake_
+cd blender
+cd build
+ninja zstd
+ninja zstd_compress
+cd blender
+ls
+cd out
+ls
+cd blender
+cd build
+ctest -N
+ctest -h
+cd ..
+cd debug_build\
+ctest -j 8 -VV --output-on-failure -C Debug -R cycles_bake_
+ctest -j 8 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+OCL_ICD_ENABLE_TRACE=1 ctest -j 8 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+cd intel
+cd build
+python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+OCL_ICD_ENABLE_TRACE=1 python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/AtomicRef/add_generic_local.cpp -v -a -s --time-tests
+cd blender
+cd debug_build\
+ctest -j 8 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:100: attempting to add vendor OpenCL_adreno.dll...ctest -j 8 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows.c:426: Failed to load driver. Windows error code is 126.
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:106: failed to load library OpenCL_adreno.dll
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows_hkr.c:282: Device ID: ACPI\VEN_QCOM&DEV_0C36&SUBSYS_10280C85&REV_0088\0
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows_hkr.c:287:     devinst: 2
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows_hkr.c:300:     Trying to look for the key in the display adapter HKR...
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows_hkr.c:145:     Path: C:\repos\adreno-core\out\latest\OpenCL_adreno.dll
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows_apppackage.c:69: Failed to find
+mapping layers packages by family name
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows.c:215: Failed to enumerate App package entry, continuing
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows.c:218: Opening key HKLM\SOFTWARE\Khronos\OpenCL\Vendors...
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows.c:241: Reading value 0...
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows.c:254: Failed to read value 0, done reading key.
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:100: attempting to add vendor C:\repos\adreno-core\out\latest\OpenCL_adreno.dll...
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:226: successfully added vendor C:\repos\adreno-core\out\latest\OpenCL_adreno.dll with suffix QCOM
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:100: attempting to add vendor C:\repos\adreno-core\out\latest\OpenCL_adreno.dll...
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:115: already loaded vendor C:\repos\adreno-core\out\latest\OpenCL_adreno.dll, nothing to do here
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:100: attempting to add vendor C:\repos\adreno-core\out\latest\OpenCL_adreno.dll...
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:115: already loaded vendor C:\repos\adreno-core\out\latest\OpenCL_adreno.dll, nothing to do here
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows.c:334: Opening key HKLM\SOFTWARE\Khronos\OpenCL\Layers...
+OCL_ICD_ENABLE_TRACE=1 ctest -j 8 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+cd intel
+cd debug_build\
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:100: attempting to add vendor OpenCL_adreno.dll...
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows.c:426: Failed to load driver. Windows error code is 126.
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:106: failed to load library OpenCL_adreno.dll
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows_hkr.c:282: Device ID: ACPI\VEN_QCOM&DEV_0C36&SUBSYS_10280C85&REV_0088\0
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows_hkr.c:287:     devinst: 2
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows_hkr.c:300:     Trying to look for the key in the display adapter HKR...
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows_hkr.c:145:     Path: C:\repos\adreno-core\out\latest\OpenCL_adreno.dll
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows_apppackage.c:69: Failed to find
+mapping layers packages by family name
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows.c:215: Failed to enumerate App package entry, continuing
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows.c:218: Opening key HKLM\SOFTWARE\Khronos\OpenCL\Vendors...
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows.c:241: Reading value 0...
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows.c:254: Failed to read value 0, done reading key.
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:100: attempting to add vendor C:\repos\adreno-core\out\latest\OpenCL_adreno.dll...
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:226: successfully added vendor C:\repos\adreno-core\out\latest\OpenCL_adreno.dll with suffix QCOM
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:100: attempting to add vendor C:\repos\adreno-core\out\latest\OpenCL_adreno.dll...
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:115: already loaded vendor C:\repos\adreno-core\out\latest\OpenCL_adreno.dll, nothing to do here
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:100: attempting to add vendor C:\repos\adreno-core\out\latest\OpenCL_adreno.dll...
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\icd.c:115: already loaded vendor C:\repos\adreno-core\out\latest\OpenCL_adreno.dll, nothing to do here
+80: KHR ICD trace at C:\Work\adreno-core\cb\src\loader\windows\icd_windows.c:334: Opening key HKLM\SOFTWARE\Khronos\OpenCL\Layers...
+OCL_ICD_ENABLE_TRACE=1 python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+./bin/sycl-ls --verbose
+./bin/clang++.exe -fsycl ../../sycl/test-e2e/test.cpp
+cd bin
+./clang++.exe -fsycl ../../sycl/test-e2e/test.cpp
+./a.exe
+OCL_ICD_ENABLE_TRACE=1 ./a.exe
+cd blender
+cd deub
+cd debug_build\
+OCL_ICD_ENABLE_TRACE=1 ctest -j 8 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+cd C
+cd C:/
+ls
+cd Windows\System32\
+ls
+fzf
+mv OpenCL.dll OpenCL_save.dll
+sudo OpenCL.dll OpenCL_save.dll
+mv -h
+cd intel
+cd debug_build\
+ls
+cd bin\
+ls
+OCL_ICD_ENABLE_TRACE=1 ./a.exe
+cd blender
+cd debug_build\
+OCL_ICD_ENABLE_TRACE=1 ctest -j 8 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+cd in
+cd debug_build\
+cd bin\
+./clang++.exe -fsycl ../../sycl/test-e2e/test.cpp
+OCL_ICD_ENABLE_TRACE=1 ./a.exe
+cd ..
+OCL_ICD_ENABLE_TRACE=1 python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/AtomicRef/add_generic_local.cpp -v -a -s --time-tests
+cd ..
+rm -rf debug_build
+mkdir debug_build
+cd debug_build\
+cd intel
+cd debug_build\
+ninja; ninja install
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+cds
+cd inte
+cd debug_build\
+cd bin
+./sycl-ls
+./sycl-ls --verbose
+ninja; ninja install
+OCL_ICD_ENABLE_TRACE=1 ctest -j 8 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi_bake_level
+OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi_level
+ctest -N cycles_back
+ctest -N cycles_bake
+ctest -N -R cycles_bake
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi_level
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+LD_DEBUG_LIBS=1 SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+cd intel
+git status
+git fetch --prune
+git pull
+cd build
+ninja; ninja install
+cd ..
+cd debug_build\
+ninja; ninja install
+cd ..
+cd blender
+git status
+git diff
+git checkout -- .
+git status
+git fetch --prune
+git pull
+git log --oneline
+git checkout verena/escape_path
+cd build
+ninja; ninja install
+cd ..
+cd debug_build\
+ninja; ninja install
+cd ..
+git checkout qualcomm-sycl-v4.3 
+git fetch --prune
+git pull
+cd build
+ninja; ninja install
+cd ..
+cd debug_build\
+ninja; ninja install
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+ninja; ninja install
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+cd ..
+git status
+git fetch --prune
+git pull
+cd build
+ninja; ninja install
+cd ..
+cd debug_build\
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+cd intel
+cd debug_build\
+OCL_ICD_ENABLE_TRACE=1 python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+cd bin\
+./clang++.exe -fsycl ../../sycl/test-e2e/test.cpp
+OCL_ICD_ENABLE_TRACE=1 ./a.exe
+./sycl-ls --verbose
+OCL_ICD_ENABLE_TRACE=1 ./a.exe
+cd blender
+git fetch --prune
+git pull
+git log --oneline
+cd debug_build\
+cmake -GNinja .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=install -DWITH_CYCLES_EMBREE=ON -DCYCLES_TEST_DEVICES="CPU;ONEAPI" -DWITH_CYCLES_DEVICE_ONEAPI=ON -DWITH_CYCLES_ONEAPI_BINARIES=OFF -DCYCLES_SYCL=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install -DSYCL_ROOT_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install -DSYCL_COMPILER=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install/bin/clang++.exe -DSYCL_LIBRARY=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install/lib/sycl8.lib -DSYCL_INCLUDE_DIR=C:/Users/sstirlin/qualcomm_sycl/intel-llvm/debug_build/install/include -DSYCL_OFFLINE_COMPILER_PARALLEL_JOBS=8 -DWITH_WINDOWS_SCCACHE=sccache -DSYCL_CPP_FLAGS="-fno-sycl-rdc" -DOCLOC_INSTALL_DIR=C:/repos/adreno-core/out/latest/qcclarm64xcompiler.dll
+ninja; ninja install
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+cd blender
+cd debug_build\
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+LD_DEBUG=libs SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+cd intel
+cd debug_build\
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ./a.exe
+SYCL_UR_TRACE=1 ./a.exe
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 a.exe
+cd bin
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ./a.exe
+cd blender
+cd debug_build\
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+cd repos
+cd adreno-core\
+git status
+git log --oneline
+git fetch ssh://review-android.quicinc.com:29418/graphics/adreno-core refs/changes/42/6042242/1 && git cherry-pick FETCH_HEAD
+cd blender
+cd intel
+cd debug_build\
+cd bin
+cd blender
+$env.PATH
+./clang++.exe -fsycl ../../sycl/test-e2e/test.cpp
+$env.PATH = ($env.PATH | append 'C:\Users\sstirlin\qualcomm_sycl\intel-llvm\debug_build\bin')
+cd debug_build\
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ./a.exe
+cd repos
+cd adreno-core\
+git status
+git log --oneline
+cd ..
+cd build
+C:/repos/adreno-core/adrenoenv.cmd
+cd ..
+cd adreno-core\
+./adrenoenv.cmd
+./clang++.exe -fsycl ../../sycl/test-e2e/test.cpp
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ./a.exe
+cd ..
+cd debug_build\
+OCL_ICD_ENABLE_TRACE=1 python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+ninja; ninja install
+OCL_ICD_ENABLE_TRACE=1 python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+$env.PATH = ($env.PATH | append 'C:\repos\adreno-core\out\latest')
+cd bin
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ./a.exe
+$env.QC_COMPILER_DLL_PATH="C:\repos\adreno-core\out\latest\qcclarm64xcompiler.dll"
+$env.QC_COMPILER_DLL_PATH = "C:\repos\adreno-core\out\latest\qcclarm64xcompiler.dll"
+$env.QC_COMPILER_DLL_PATH='C:\repos\adreno-core\out\latest\qcclarm64xcompiler.dll'
+$env.QC_COMPILER_DLL_PATH=C:\repos\adreno-core\out\latest\qcclarm64xcompiler.dll
+$env.QC_COMPILER_DLL_PATH = "C:\repos\adreno-core\out\latest\qcclarm64xcompiler.dll"
+$env.QC_COMPILER_DLL_PATH = "C:\\repos\\adreno-core\\out\\latest\\qcclarm64xcompiler.dll"
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ./a.exe
+PRINT_QC_COMPILER_DLL_PATH=1 ./a.exe
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ./a.exe
+PRINT_QC_COMPILER_DLL_PATH=1 SYCL_UR_TRACE=1 ./a.exe
+cd intel
+cd debug_build\
+cd bin
+./a.exe
+PRINT_QC_COMPILER_DLL_PATH=1 ./a.exe
+$env.QC_COMPILER_DLL_PATH
+$env.QC_COMPILER_DLL_PATH$env.QC_COMPILER_DLL_PATH = "C:\repos\adreno-core\out\latest\qcclarm64xcompiler.dll"
+$env.QC_COMPILER_DLL_PATH$env.QC_COMPILER_DLL_PATH = "C:\\repos\\adreno-core\\out\\latest\\qcclarm64xcompiler.dll"
+./a.exe
+PRINT_QC_COMPILER_DLL_PATH=1 ./a.exe
+$env.QC_COMPILER_DLL_PATH = "C:\\repos\\adreno-core\\out\\latest\\qcclarm64xcompiler.dll"
+./a.exe
+$env.QC_COMPILER_DLL_PATH
+PRINT_QC_COMPILER_DLL_PATH=1 ./a.exe
+cd repos
+cd adreno-core\
+git fetch ssh://review-android.quicinc.com:29418/graphics/adreno-core refs/changes/42/6042242/2 && git cherry-pick FETCH_HEAD
+cmd
+cd intel
+cd debug_build\
+./a.exe
+cd bin
+./a,
+./a.exe
+PRINT_QC_COMPILER_DLL_PATH=1 ./a.exe
+cd ..
+exit
+ninja; ninja install
+cd blender
+cd debug_build\
+ninja; ninja install
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+$env.PATH = ($env.PATH | append 'C:\Users\sstirlin\qualcomm_sycl\intel-llvm\debug_build\bin')
+SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+PRINT_QC_COMPILER_DLL_PATH=1 SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+$env.PATH = ($env.PATH | append 'C:\Users\sstirlin\qualcomm_sycl\intel-llvm\debug_build\bin\')
+$env.PATH
+PRINT_QC_COMPILER_DLL_PATH=1 SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+ninja; ninja install
+PRINT_QC_COMPILER_DLL_PATH=1 SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+$env.PATH = ($env.PATH | append 'C:\Windows\system32\')
+PRINT_QC_COMPILER_DLL_PATH=1 SYCL_UR_TRACE=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 -VV --output-on-failure -C Debug -R cycles_bake_oneapi
+PRINT_QC_COMPILER_DLL_PATH=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 --output-on-failure -C Debug -R cycles_bake_oneapi
+$env.OCL_ICD_ENABLE_TRACE = 1
+PRINT_QC_COMPILER_DLL_PATH=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 --output-on-failure -C Debug -R cycles_bake_oneapi
+$env.path = ($env.path | append C:\repos\adreno-core\out\latest)
+$env.path
+PRINT_QC_COMPILER_DLL_PATH=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 --output-on-failure -C Debug -R cycles_bake_oneapi
+SYCL_UR_TRACE=1 PRINT_QC_COMPILER_DLL_PATH=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 --output-on-failure -C Debug -R cycles_bake_oneapi
+cd repos
+ls
+cd opencl_tests
+ls
+cd ..
+fzf
+cd blender
+cd debug_build\
+SYCL_UR_TRACE=1 PRINT_QC_COMPILER_DLL_PATH=1 OCL_ICD_ENABLE_TRACE=1 ctest -j 1 --output-on-failure -C Debug -R cycles_bake_oneapi
+cd intel
+cd debug_build\
+OCL_ICD_ENABLE_TRACE=1 python ./bin/llvm-lit.py --param sycl_devices=opencl:gpu ../sycl/test-e2e/test.cpp -v -a -s --time-tests
+code .gitconfig 
+mkdir config_git
+cd config_git\
+git init
+git l
+git ls
+git status
+cd scoop\
+ls
+cd ..
+rm scoop\
+rm -rf scoop
+ls
+mkdir nushell
+config nu
+$env.config.buffer_editor = "code"
+config nu
